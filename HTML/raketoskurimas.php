@@ -74,28 +74,28 @@ require_once("includes/header.php");
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.1</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="pirmas_modulis" value="1" style="margin: auto;" checked="checked"/>
+                                                    <input type="checkbox" name="pirmas_modulis" value="1" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center ">Modulis nr.2</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="pirmas_modulis" value="2" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_modulis" value="2" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.3</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="pirmas_modulis" value="3" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_modulis" value="3" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.4</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="pirmas_modulis" value="4" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_modulis" value="4" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -105,28 +105,28 @@ require_once("includes/header.php");
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.1</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="pirmas_modulis" value="5" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_modulis" value="5" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center ">Modulis nr.2</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="pirmas_modulis" value="6" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_modulis" value="6" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.3</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="pirmas_modulis" value="7" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_modulis" value="7" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.4</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="pirmas_modulis" value="8" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_modulis" value="8" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,21 +145,21 @@ require_once("includes/header.php");
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.1</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="antras_modulis" value="1" style="margin: auto;" checked="checked"/>
+                                                    <input type="checkbox" name="antras_modulis" value="1" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center ">Modulis nr.2</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="antras_modulis" value="2" style="margin: auto;"/>
+                                                    <input type="checkbox" name="antras_modulis" value="2" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.3</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="antras_modulis" value="3" style="margin: auto;"/>
+                                                    <input type="checkbox" name="antras_modulis" value="3" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -178,21 +178,21 @@ require_once("includes/header.php");
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.1</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="trecias_modulis" value="1" style="margin: auto;" checked="checked"/>
+                                                    <input type="checkbox" name="trecias_modulis" value="1" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center ">Modulis nr.2</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="trecias_modulis" value="2" style="margin: auto;"/>
+                                                    <input type="checkbox" name="trecias_modulis" value="2" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Modulis nr.3</div>
                                                     <div class="card-body">modulio img</div>
-                                                    <input type="radio" name="trecias_modulis" value="3" style="margin: auto;"/>
+                                                    <input type="checkbox" name="trecias_modulis" value="3" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -236,28 +236,28 @@ require_once("includes/header.php");
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.1</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="pirmas_dizainas" value="1" style="margin: auto;" checked="checked"/>
+                                                    <input type="checkbox" name="pirmas_dizainas" value="1" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center ">Dizainas nr.2</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="pirmas_dizainas" value="2" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_dizainas" value="2" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.3</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="pirmas_dizainas" value="3" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_dizainas" value="3" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.4</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="pirmas_dizainas" value="4" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_dizainas" value="4" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -267,28 +267,28 @@ require_once("includes/header.php");
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.1</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="pirmas_dizainas" value="5" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_dizainas" value="5" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center ">Dizainas nr.2</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="pirmas_dizainas" value="6" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_dizainas" value="6" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.3</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="pirmas_dizainas" value="7" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_dizainas" value="7" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.4</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="pirmas_dizainas" value="8" style="margin: auto;"/>
+                                                    <input type="checkbox" name="pirmas_dizainas" value="8" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -307,21 +307,21 @@ require_once("includes/header.php");
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.1</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="antras_dizainas" value="1" style="margin: auto;" checked="checked"/>
+                                                    <input type="checkbox" name="antras_dizainas" value="1" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center ">Dizainas nr.2</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="antras_dizainas" value="4" style="margin: auto;"/>
+                                                    <input type="checkbox" name="antras_dizainas" value="4" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.3</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="antras_dizainas" value="3" style="margin: auto;"/>
+                                                    <input type="checkbox" name="antras_dizainas" value="3" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -340,21 +340,21 @@ require_once("includes/header.php");
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.1</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="trecias_dizainas" value="1" style="margin: auto;" checked="checked"/>
+                                                    <input type="checkbox" name="trecias_dizainas" value="1" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center ">Dizainas nr.2</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="trecias_dizainas" value="2" style="margin: auto;"/>
+                                                    <input type="checkbox" name="trecias_dizainas" value="2" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card">
                                                     <div class="card-title text-center">Dizainas nr.3</div>
                                                     <div class="card-body">dizaino img</div>
-                                                    <input type="radio" name="trecias_dizainas" value="3" style="margin: auto;"/>
+                                                    <input type="checkbox" name="trecias_dizainas" value="3" style="margin: auto;"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -382,3 +382,9 @@ require_once("includes/header.php");
 <?php
 require_once("includes/footer.php");
 ?>
+
+<style>
+    .carousel-control-next, .carousel-control-prev {
+        border: solid 1px black;
+    }
+</style>
