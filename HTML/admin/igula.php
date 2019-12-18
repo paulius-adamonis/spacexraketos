@@ -8,7 +8,7 @@
 					<h3>Įgulos narių sąrašas</h3>
 				</div>
 				<div class="col text-right">
-					<a class="btn btn-primary" href="#">Pridėti naują narį</a>
+					<a class="btn btn-primary" href="naujas-narys.php">Pridėti naują narį</a>
 				</div>
 			</div>
 			<hr>

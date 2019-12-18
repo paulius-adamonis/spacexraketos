@@ -28,7 +28,7 @@
 
 				<ul class="navbar-nav mr-right-0">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Atsijungti</a>
+						<a class="nav-link" href="/">Atsijungti</a>
 					</li>
 				</ul>
 			</div>
