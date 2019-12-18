@@ -10,6 +10,7 @@
 				<div class="col text-right">
 					<div class="btn btn-primary">Generuoti naują raketą</div>
 					<a class="btn btn-success" href="igula.php">Rinktis įgulą</a>
+					<a class="btn btn-success" href="interiorModules.php">Rinktis vidaus modulius</a>
 				</div>
 			</div>
 			<hr>
