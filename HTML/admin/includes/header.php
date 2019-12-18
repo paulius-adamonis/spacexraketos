@@ -16,25 +16,22 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="index.php">Pagrindinis</a>
+					<a class="nav-link" href="/index.php">Pagrindinis</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="raketoskurimas.php">Raketos modeliavimas</a>
+					<a class="nav-link" href="uzsakymai.php">Užsakymų administravimas</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="userOrders.php">Jūsų užsakymai</a>
+					<a class="nav-link" href="igula.php">Įgulos narių administravimas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="moduliai.php">Modulių administravimas</a>
 				</li>
 				</ul>
 
 				<ul class="navbar-nav mr-right-0">
 					<li class="nav-item">
-						<a class="nav-link" href="login.php">Prisijungti</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="registration.php">Registruotis</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Atsijungti</a>
+						<a class="nav-link" href="/">Atsijungti</a>
 					</li>
 				</ul>
 			</div>
