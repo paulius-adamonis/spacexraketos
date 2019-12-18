@@ -113,6 +113,13 @@ span.psw {
   }
 }
 
+.space-bg{
+	background-image: url("../resources/bg.jpg")!important;
+}
+
+.container {
+		background: white;
+}
 .center {
   display: block;
   margin-left: auto;
