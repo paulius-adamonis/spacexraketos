@@ -38,6 +38,13 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+#map {
+  width: 80%;
+  height: 480px;
+  margin: 0 auto;
+  display: block;
+}
+
 /* Set a style for all buttons */
 button {
   background-color: black;
