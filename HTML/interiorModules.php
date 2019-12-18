@@ -3,7 +3,16 @@
 ?>
 		<!-- Puslapis -->
 	<div class="container">
-		<div class="h3">Vidaus moduliai</div>
+        <div class="h3">Vidaus moduliai</div>
+        <div class="row">
+            <div class="col">
+                <h3>Raketos modeliavimas</h3>
+            </div>
+            <div class="col text-right">
+                <a class="btn btn-primary" href="raketoskurimas.php">Grįžti į raketos modeliavimą</a>
+                <a class="btn btn-success" href="igula.php">Rinktis įgulą</a>
+            </div>
+        </div>
 		<hr>
 		<p>Pasirinkite norimą modulį iš sąrašo ir spauskite "Pridėti modulį", jis bus pridedamas į užsakymą</p>
     <form>

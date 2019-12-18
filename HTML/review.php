@@ -7,7 +7,7 @@
 		<title>SpaceX Raketų Sistema</title>
 		<meta content="">
 		</head>
-<div class="center">
+<div class="container center">
 <form   method="post" action="index.php" onSubmit="return validateForm();">
 <div style="width: 400px;">
 </div>
