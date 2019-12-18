@@ -8,8 +8,8 @@
 					<h3>Įgulos pasirinkimas</h3>
 				</div>
 				<div class="col text-right">
-					<a class="btn btn-primary" href="raketoskurimas.html">Grįžti į raketos modeliavimą</a>
-					<div class="btn btn-success">Sudaryti maršrutą</div>
+					<a class="btn btn-primary" href="interiorModules.php">Grįžti į raketos vidaus modeliavimą</a>
+					<a class="btn btn-success" href="location.php">Sudaryti maršrutą</a>
 				</div>
 			</div>
 			<hr>

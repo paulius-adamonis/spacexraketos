@@ -11,7 +11,7 @@
 		<meta content="">
 </head>
 
-<body style="text-align:center">
+<div class="container" style="text-align:center">
 <h1 >Pasirinkite pakilimo vietą</h1>
 <div class="container" id="map"></div>
 <div><br>
@@ -21,7 +21,8 @@
 <br>
 <label>Pasirinkta pozicija: <span id="onClickPositionView"></span></label>
 <br>
-<a href='index.php' class="btn btn-dark"> Atgal </a> <a href='index.php' class="btn btn-dark"> Toliau </a>
+<a class="btn btn-primary" href="igula.php">Grįžti į įgulos pasirinkimą</a>
+<a href='userOrders.php' class="btn btn-success"> Užsakyti! </a>
 </div>
 <script>
   // Get element references
@@ -51,7 +52,7 @@
   });
 </script>
 
-</body>
+</div>
 <?php
 	require_once("includes/footer.php");
 ?>

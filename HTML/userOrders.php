@@ -37,7 +37,7 @@
 								<td><?=$order->sum?></td>
 								<th><?=$order->date?></th>
 								<td><a href="launchStream.php?name=<?=urlencode($order->name)?>" class="btn btn-primary">Stebėti paleidimą</a>
-									<a href="leaveReview.php?name=<?=urlencode($order->name)?>" class="btn btn-primary">Palikti atsiliepimą</a></td>
+									<a href="review.php?name=<?=urlencode($order->name)?>" class="btn btn-primary">Palikti atsiliepimą</a></td>
 							</tr><?php
 						}
 					?>
