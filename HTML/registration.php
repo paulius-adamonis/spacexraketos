@@ -6,28 +6,31 @@
 		<meta content="">
 		</head>
 	<body>
-        <form action="index.html">
+        <form action="index.php">
+        <div class="imgcontainer">
+              <img src="resources/registration.png" alt="Avatar" class="avatar">
+            </div>
             <div class="container">
-              <h1>Register</h1>
-              <p>Please fill in this form to create an account.</p>
+              <h1>Registruotis</h1>
+              <p>Užpildykite formą norint susikurti paskyrą.</p>
               <hr>
           
-              <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="email" required>
+              <label for="email"><b>Paštas</b></label>
+              <input type="text" placeholder="Įveskite paštą" name="email" required>
           
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <label for="psw"><b>Slaptažodis</b></label>
+              <input type="password" placeholder="Įveskite slaptažodį" name="psw" required>
           
-              <label for="psw-repeat"><b>Repeat Password</b></label>
-              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              <label for="psw-repeat"><b>Pakartoti slaptažodį</b></label>
+              <input type="password" placeholder="Pakartoti slaptažodį" name="psw-repeat" required>
               <hr>
           
-              <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-              <button type="submit" class="registerbtn">Register</button>
+              <p>Susikurdami paskyrą sutinkate su mūsų vartojimo taisyklėmis <a href="#">Terms & Privacy</a>.</p>
+              <button type="submit" class="registerbtn">Registruotis</button>
             </div>
           
             <div class="container signin">
-              <p>Already have an account? <a href="#">Sign in</a>.</p>
+              <p>Jau turi paskyrą? <a href="login.php">Prisijungti</a>.</p>
             </div>
           </form>
 <?php

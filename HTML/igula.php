@@ -36,24 +36,28 @@
 													<div class="card">
 														<div class="card-title text-center">Narys nr.1</div>
 														<div class="card-body">nario foto</div>
-													</div>
+                                                        <input type="checkbox" name="igula_1_narys_1" style="margin: auto;"/>
+                                                    </div>
 												</div>
 												<div class="col">
 													<div class="card">
 														<div class="card-title text-center ">Narys nr.2</div>
 														<div class="card-body">nario foto</div>
+                                                        <input type="checkbox" name="igula_1_narys_2" style="margin: auto;"/>
 													</div>
 												</div>
 												<div class="col">
 													<div class="card">
 														<div class="card-title text-center">Narys nr.3</div>
 														<div class="card-body">nario foto</div>
+                                                        <input type="checkbox" name="igula_1_narys_3" style="margin: auto;"/>
 													</div>
 												</div>
 												<div class="col">
 													<div class="card">
 														<div class="card-title text-center">Narys nr.4</div>
 														<div class="card-body">nario foto</div>
+                                                        <input type="checkbox" name="igula_1_narys_4" style="margin: auto;"/>
 													</div>
 												</div>
 											</div>
@@ -72,19 +76,22 @@
 													<div class="card">
 														<div class="card-title text-center">Narys nr.1</div>
 														<div class="card-body">nario foto</div>
-													</div>
+                                                        <input type="checkbox" name="igula_2_narys_1" style="margin: auto;"/>
+                                                    </div>
 												</div>
 												<div class="col">
 													<div class="card">
 														<div class="card-title text-center ">Narys nr.2</div>
 														<div class="card-body">nario foto</div>
-													</div>
+                                                        <input type="checkbox" name="igula_2_narys_2" style="margin: auto;"/>
+                                                    </div>
 												</div>
 												<div class="col">
 													<div class="card">
 														<div class="card-title text-center">Narys nr.3</div>
 														<div class="card-body">nario foto</div>
-													</div>
+                                                        <input type="checkbox" name="igula_2_narys_3" style="margin: auto;"/>
+                                                    </div>
 												</div>
 											</div>
 										</div>
@@ -102,18 +109,21 @@
 													<div class="card">
 														<div class="card-title text-center">Narys nr.1</div>
 														<div class="card-body">nario foto</div>
-													</div>
+                                                        <input type="checkbox" name="igula_3_narys_1" style="margin: auto;"/>
+                                                    </div>
 												</div>
 												<div class="col">
 													<div class="card">
 														<div class="card-title text-center ">Narys nr.2</div>
 														<div class="card-body">nario foto</div>
+                                                        <input type="checkbox" name="igula_3_narys_2" style="margin: auto;"/>
 													</div>
 												</div>
 												<div class="col">
 													<div class="card">
 														<div class="card-title text-center">Narys nr.3</div>
 														<div class="card-body">nario foto</div>
+                                                        <input type="checkbox" name="igula_3_narys_3" style="margin: auto;"/>
 													</div>
 												</div>
 											</div>
@@ -139,3 +149,9 @@
 <?php
 	require_once("includes/footer.php");
 ?>
+
+<style>
+    .carousel-control-next, .carousel-control-prev {
+        border: solid 1px black;
+    }
+</style>

@@ -38,6 +38,13 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+#map {
+  width: 80%;
+  height: 480px;
+  margin: 0 auto;
+  display: block;
+}
+
 /* Set a style for all buttons */
 button {
   background-color: black;
@@ -95,10 +102,17 @@ span.psw {
   }
 }
 
-		.space-bg{
-			background-image: url("../resources/bg.jpg")!important;
-		}
+.space-bg{
+	background-image: url("../resources/bg.jpg")!important;
+}
 
-		.container {
-			background: white;
-		}
+.container {
+		background: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  height: max-content;
+}
