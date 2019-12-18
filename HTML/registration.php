@@ -6,7 +6,10 @@
 		<meta content="">
 		</head>
 	<body>
-        <form action="index.html">
+        <form action="index.php">
+        <div class="imgcontainer">
+              <img src="resources/registration.png" alt="Avatar" class="avatar">
+            </div>
             <div class="container">
               <h1>Register</h1>
               <p>Please fill in this form to create an account.</p>
@@ -27,7 +30,7 @@
             </div>
           
             <div class="container signin">
-              <p>Already have an account? <a href="#">Sign in</a>.</p>
+              <p>Already have an account? <a href="login.php">Sign in</a>.</p>
             </div>
           </form>
 <?php

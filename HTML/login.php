@@ -6,7 +6,7 @@
 		<meta content="">
 		</head>
 	<body>
-        <form action="index.html" method="post">
+        <form action="index.php" method="post">
             <div class="imgcontainer">
               <img src="resources/login.png" alt="Avatar" class="avatar">
             </div>
