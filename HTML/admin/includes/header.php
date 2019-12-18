@@ -21,6 +21,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="uzsakymai.php">Užsakymų administravimas</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="igula.php">Įgulos narių administravimas</a>
+				</li>
 				</ul>
 
 				<ul class="navbar-nav mr-right-0">
