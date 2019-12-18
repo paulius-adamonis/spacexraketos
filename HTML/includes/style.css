@@ -94,3 +94,11 @@ span.psw {
     width: 100%;
   }
 }
+
+		.space-bg{
+			background-image: url("../resources/bg.jpg")!important;
+		}
+
+		.container {
+			background: white;
+		}
