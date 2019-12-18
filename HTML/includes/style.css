@@ -127,3 +127,8 @@ span.psw {
   width: max-content;
   height: max-content;
 }
+
+.defaultbody{
+  display: block;
+  margin: 8px;
+}

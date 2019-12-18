@@ -10,11 +10,7 @@
 		<title>SpaceX Raketų Sistema</title>
 		<meta content="">
 	</head>
-<<<<<<< HEAD
-	<body id="rect">
-=======
-	<body class="space-bg">
->>>>>>> fc2d42d100219170c2a8f09cd44d402891131b57
+	<body id="rect" >
 		<!-- Navigacija -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#">SpaceX Raketų Sistema</a>
@@ -57,6 +53,7 @@
 		<br>
 
 <script>
+
 var options = {
     valueElement: "valueInput",        
     styleElement:'rect',
@@ -67,10 +64,12 @@ var options = {
     insetColor: '#CCC',
     backgroundColor: '#202020'
 };
-
+document.getElementById("rect").classList.add('defaultBody');
 var pickers = {};
 function update () {
-    document.getElementById('rect').style.backgroundColor = pickers.changeBackgroundColor.toHEXString();
+	document.getElementById('rect').style.backgroundColor = pickers.changeBackgroundColor.toHEXString();
+	document.getElementById('rect').classList.toggle('space-bg');
+	document.getElementById('rect').classList.toggle('defaultBody');
     document.getElementById('rect').style.color=pickers.changecolor.toHEXString();
 }
 
