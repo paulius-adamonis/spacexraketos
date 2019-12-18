@@ -374,6 +374,32 @@ require_once("includes/header.php");
                 </div>
             </div>
         </div>
+        <hr>
+            <div class="row">
+                <div class="col">
+                <h4 class="text-center">Kuro tipai</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Raketų kuras</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Dyzelinas</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Benzinas</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">Aliejus</label>
+                    </div>
+                </div>
+            </div>
     </div>
     <br>
     <script>
