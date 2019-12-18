@@ -14,8 +14,43 @@
 				</div>
 			</div>
 			<hr>
-			<div class="w-100 h-50 bg-secondary d-flex justify-content-center align-items-center text-light">Raketos vaizdas</div>
+
+            <div class="d-flex justify-content-center" style="height: 33%;">
+                <div class="row w-100 h-100">
+                    <div class="col-1 h-100">
+                        <a class="carousel-control-prev w-100" href="#carousel3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </div>
+                    <div class="col h-100">
+                        <div id="carousel3" class="carousel slide h-100" data-ride="carousel" data-interval="false">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item w-100 h-100 active">
+			                        <div class="w-100 h-100 bg-secondary d-flex justify-content-center align-items-center text-light">Raketos vaizdas 0 Laipsiu</div>
+                                </div>
+                                <div class="carousel-item w-100 h-100 ">
+                                    <div class="w-100 h-100 bg-secondary d-flex justify-content-center align-items-center text-light">Raketos vaizdas 90 Laipsiu</div>
+                                </div>
+                                <div class="carousel-item w-100 h-100 ">
+                                    <div class="w-100 h-100 bg-secondary d-flex justify-content-center align-items-center text-light">Raketos vaizdas 180 Laipsiu</div>
+                                </div>
+                                <div class="carousel-item w-100 h-100 ">
+                                    <div class="w-100 h-100 bg-secondary d-flex justify-content-center align-items-center text-light">Raketos vaizdas 270 Laipsiu</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <a class="carousel-control-next w-100" href="#carousel3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
 			<hr>
+
 			<div class="d-flex justify-content-center" style="height: 33%;">
 				<div class="row w-100 h-100">
 					<div class="col-1 h-100">
@@ -232,7 +267,7 @@
 													<div class="card">
 														<div class="card-title text-center">Dizainas nr.1</div>
 														<div class="card-body">dizaino img</div>
-                                                        <input type="radio" name="pirmas_dizainas" value="5" style="margin: auto;" checked="checked"/>
+                                                        <input type="radio" name="pirmas_dizainas" value="5" style="margin: auto;"/>
                                                     </div>
 												</div>
 												<div class="col">
@@ -342,13 +377,8 @@
 		<script>
 			$('#carousel').carousel();
             $('#carousel2').carousel();
+            $('#carousel3').carousel();
 		</script>		
 <?php
 	require_once("includes/footer.php");
 ?>
-
-<script>
-
-
-
-</script>
