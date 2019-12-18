@@ -12,18 +12,7 @@
 <div style="width: 400px;">
 </div>
 <div style="padding-bottom: 18px;font-size : 24px;">Skrydžio atsiliepimo forma</div>
-<div style="padding-bottom: 18px;">Atsiliepimą rašantis asmuo<span style="color: red;"> *</span><br/>
-<input type="text" id="data_2" name="data_2" style="width : 450px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px; ">Kur skridote?<br/>
-<select id="data_3" name="data_3" style="width : 450px;" class="form-control"><option></option>
-<option>Į Saulę (kaip išgyvenot?)</option>
-<option>Į Mėnulį</option>
-<option>Į Marsą</option>
-<option>Kažkur toli</option>
-<option>Nežinau</option>
-</select>
-</div>
+
 <div style="padding-bottom: 18px;">Įvertinkite<span style="color: red;"> *</span><br/>
 <select id="data_4" name="data_4" style="width : 150px;" class="form-control"><option>Išgyvenau</option>
 <option>Patiko</option>
@@ -31,9 +20,6 @@
 <option>Skrisiu dar kartą</option>
 <option>Prastas vairuotojas</option>
 </select>
-</div>
-<div style="padding-bottom: 18px;">Raketos pavadinimas<span style="color: red;"> *</span><br/>
-<input type="text" id="data_5" name="data_5" style="width : 450px;" class="form-control"/>
 </div>
 <div style="padding-bottom: 18px;">Kas patiko<br/>
 <textarea id="data_6" false name="data_6" style="width : 450px;" rows="3" class="form-control"></textarea>
