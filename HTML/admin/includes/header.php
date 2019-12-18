@@ -24,6 +24,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="igula.php">Įgulos narių administravimas</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="moduliai.php">Modulių administravimas</a>
+				</li>
 				</ul>
 
 				<ul class="navbar-nav mr-right-0">
