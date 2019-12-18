@@ -2,6 +2,7 @@
 	require_once("includes/header.php");
 ?>
 <head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.js"></script>
     <link rel="stylesheet" type="text/css" href="includes/style.css">
 </head>
 		<!-- Puslapis -->
@@ -17,6 +18,7 @@
 			
 		</div>
 		<img class="center" src="https://media0.giphy.com/media/tXLpxypfSXvUc/giphy.gif?cid=790b7611e1e832dd3c97e779f215835aed492229d9bc95d8&rid=giphy.gif" alt="Rocket">
+
 <?php
 	require_once("includes/footer.php");
 ?>

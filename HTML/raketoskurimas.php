@@ -1,6 +1,9 @@
 <?php
 require_once("includes/header.php");
 ?>
+<head>
+    <link rel="stylesheet" type="text/css" href="includes/style.css">
+</head>
     <!-- Puslapis -->
     <div class="container">
         <div class="row">

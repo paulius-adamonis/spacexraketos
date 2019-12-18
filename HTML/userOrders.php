@@ -13,6 +13,9 @@
 		$orders[] = $order;
 	}
 ?>
+<head>
+    <link rel="stylesheet" type="text/css" href="includes/style.css">
+</head>
 		<!-- Puslapis -->
 		<div class="container">
 			<div class="h3">Jūsų užsakymai</div>
