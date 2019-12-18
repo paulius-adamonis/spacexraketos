@@ -21,6 +21,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="raketoskurimas.php">Raketos modeliavimas</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="userOrders.php">Jūsų užsakymai</a>
+				</li>
 				</ul>
 
 				<ul class="navbar-nav mr-right-0">

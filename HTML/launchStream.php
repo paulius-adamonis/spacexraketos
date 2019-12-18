@@ -3,7 +3,7 @@
 ?>
 		<!-- Puslapis -->
 		<div class="container">
-			<div class="h3">Pagrindinis</div>
+			<div class="h3">Paleidimo stebėjimas</div>
 			<hr>
 			<p class="text-justify">
 				Nullam scelerisque scelerisque est, in porta turpis euismod non. Morbi lorem augue, rhoncus a diam nec, blandit commodo tellus. Cras sed sem a lacus aliquam iaculis ut id diam. Vivamus lacus tortor, egestas non velit sed, consectetur porttitor turpis. Etiam ac diam dictum, ultrices lectus sit amet, fringilla urna. Vivamus pellentesque pulvinar sem, vel consectetur urna facilisis sit amet. Pellentesque volutpat rhoncus tincidunt. Cras elit leo, ullamcorper eu convallis id, ornare vel sapien. Morbi iaculis pellentesque elit quis porttitor. Praesent in magna metus. Sed sit amet mollis magna. Aliquam ac fringilla risus. Nulla fermentum ante non pharetra placerat. Nulla facilisi. 
