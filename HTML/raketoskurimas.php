@@ -17,391 +17,167 @@ require_once("includes/header.php");
         </div>
         <hr>
 
-        <div class="d-flex justify-content-center" style="height: 33%;">
-            <div class="row w-100 h-100">
-                <div class="col-1 h-100">
-                    <a class="carousel-control-prev w-100" href="#carousel3" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
+		<div class="d-flex justify-content-center">
+	        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block w-100 h-100" id="image1" src="raketuFoto/Sviesi/Default/1.png" alt="Šiaurės kampas">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100 h-100" id="image2" src="raketuFoto/Sviesi/Default/2.png" alt="Rytų kampas">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100 h-100" id="image3" src="raketuFoto/Sviesi/Default/3.png" alt="Pietų kampas">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100 h-100" id="image4" src="raketuFoto/Sviesi/Default/4.png" alt="Vakarų kampas">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Atgal</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Sekantis</span>
+			  </a>
+			</div>
+		</div>
+
+        <hr>
+        <div class="row">
+            <div class="col">
+            <h4 class="text-center">Raketos dizainas</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="designRadio" id="inlineRadio1" value="option1" checked onclick="func();">
+                    <label class="form-check-label" for="inlineRadio1">Šviesi</label>
                 </div>
-                <div class="col h-100">
-                    <div id="carousel3" class="carousel slide h-100" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner h-100">
-                            <div class="carousel-item w-100 h-100 active">
-                                <div class="w-100 h-100 bg-secondary d-flex justify-content-center align-items-center text-light">Raketos vaizdas 0 Laipsiu</div>
-                            </div>
-                            <div class="carousel-item w-100 h-100 ">
-                                <div class="w-100 h-100 bg-secondary d-flex justify-content-center align-items-center text-light">Raketos vaizdas 90 Laipsiu</div>
-                            </div>
-                            <div class="carousel-item w-100 h-100 ">
-                                <div class="w-100 h-100 bg-secondary d-flex justify-content-center align-items-center text-light">Raketos vaizdas 180 Laipsiu</div>
-                            </div>
-                            <div class="carousel-item w-100 h-100 ">
-                                <div class="w-100 h-100 bg-secondary d-flex justify-content-center align-items-center text-light">Raketos vaizdas 270 Laipsiu</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-1">
-                    <a class="carousel-control-next w-100" href="#carousel3" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="designRadio" id="inlineRadio2" value="option2" onclick="func();">
+                    <label class="form-check-label" for="inlineRadio2">Tamsi</label>
                 </div>
             </div>
         </div>
         <hr>
-
-        <div class="d-flex justify-content-center" style="height: 33%;">
-            <div class="row w-100 h-100">
-                <div class="col-1 h-100">
-                    <a class="carousel-control-prev w-100" href="#carousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                </div>
-                <div class="col h-100">
-                    <div id="carousel" class="carousel slide h-100" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner h-100">
-                            <div class="carousel-item w-100 h-100 active">
-                                <div class="d-flex justify-content-center align-items-center h-100">
-                                    <div class="container-fluid h-100 overflow-auto">
-                                        <div class="row">
-                                            <h4 class="text-center w-100 m-0">Pirmo pogrupio moduliai</h4>
-                                        </div>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.1</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="pirmas_modulis" value="1" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center ">Modulis nr.2</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="pirmas_modulis" value="2" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.3</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="pirmas_modulis" value="3" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.4</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="pirmas_modulis" value="4" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.1</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="pirmas_modulis" value="5" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center ">Modulis nr.2</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="pirmas_modulis" value="6" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.3</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="pirmas_modulis" value="7" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.4</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="pirmas_modulis" value="8" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item w-100 h-100 ">
-                                <div class="d-flex justify-content-center align-items-center h-100">
-                                    <div class="container-fluid h-100 overflow-auto">
-                                        <div class="row">
-                                            <h4 class="text-center w-100 m-0">Antro pogrupio moduliai</h4>
-                                        </div>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.1</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="antras_modulis" value="1" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center ">Modulis nr.2</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="antras_modulis" value="2" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.3</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="antras_modulis" value="3" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item w-100 h-100">
-                                <div class="d-flex justify-content-center align-items-center h-100">
-                                    <div class="container-fluid h-100 overflow-auto">
-                                        <div class="row">
-                                            <h4 class="text-center w-100 m-0">Trecio pogrupio moduliai</h4>
-                                        </div>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.1</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="trecias_modulis" value="1" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center ">Modulis nr.2</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="trecias_modulis" value="2" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Modulis nr.3</div>
-                                                    <div class="card-body">modulio img</div>
-                                                    <input type="checkbox" name="trecias_modulis" value="3" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-1">
-                    <a class="carousel-control-next w-100" href="#carousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+        <div class="row">
+            <div class="col">
+            <h4 class="text-center">Kuro tipai</h4>
             </div>
         </div>
-
-        <hr>
-
-        <div class="d-flex justify-content-center" style="height: 33%;">
-            <div class="row w-100 h-100">
-                <div class="col-1 h-100">
-                    <a class="carousel-control-prev w-100" href="#carousel2" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fuelRadio" id="inlineRadio1" value="option1" checked>
+                    <label class="form-check-label" for="inlineRadio1">Kerasinas</label>
                 </div>
-                <div class="col h-100">
-                    <div id="carousel2" class="carousel slide h-100" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner h-100">
-                            <div class="carousel-item w-100 h-100 active">
-                                <div class="d-flex justify-content-center align-items-center h-100">
-                                    <div class="container-fluid h-100 overflow-auto">
-                                        <div class="row">
-                                            <h4 class="text-center w-100 m-0">Pirmo pogrupio dizainai</h4>
-                                        </div>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.1</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="pirmas_dizainas" value="1" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center ">Dizainas nr.2</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="pirmas_dizainas" value="2" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.3</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="pirmas_dizainas" value="3" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.4</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="pirmas_dizainas" value="4" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.1</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="pirmas_dizainas" value="5" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center ">Dizainas nr.2</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="pirmas_dizainas" value="6" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.3</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="pirmas_dizainas" value="7" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.4</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="pirmas_dizainas" value="8" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item w-100 h-100 ">
-                                <div class="d-flex justify-content-center align-items-center h-100">
-                                    <div class="container-fluid h-100 overflow-auto">
-                                        <div class="row">
-                                            <h4 class="text-center w-100 m-0">Antro pogrupio dizainai</h4>
-                                        </div>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.1</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="antras_dizainas" value="1" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center ">Dizainas nr.2</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="antras_dizainas" value="4" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.3</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="antras_dizainas" value="3" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item w-100 h-100">
-                                <div class="d-flex justify-content-center align-items-center h-100">
-                                    <div class="container-fluid h-100 overflow-auto">
-                                        <div class="row">
-                                            <h4 class="text-center w-100 m-0">Trecio pogrupio dizainai</h4>
-                                        </div>
-                                        <hr>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.1</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="trecias_dizainas" value="1" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center ">Dizainas nr.2</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="trecias_dizainas" value="2" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card">
-                                                    <div class="card-title text-center">Dizainas nr.3</div>
-                                                    <div class="card-body">dizaino img</div>
-                                                    <input type="checkbox" name="trecias_dizainas" value="3" style="margin: auto;"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fuelRadio" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Dyzelinas</label>
                 </div>
-                <div class="col-1">
-                    <a class="carousel-control-next w-100" href="#carousel2" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fuelRadio" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Benzinas</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fuelRadio" id="inlineRadio4" value="option4">
+                    <label class="form-check-label" for="inlineRadio4">Aliejus</label>
                 </div>
             </div>
         </div>
         <hr>
-            <div class="row">
+        <div class="d-flex justify-content-center">
+        	<div class="row w-100 mb-3">
                 <div class="col">
-                <h4 class="text-center">Kuro tipai</h4>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="container-fluid overflow-auto">
+                            <div class="row">
+                                <h4 class="text-center w-100 m-0">Modulių pasirinkimas</h4>
+                            </div><br>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card" style="width: 18rem;">
+									  <div class="card-body">
+									    <p class="card-text d-flex justify-content-center align-items-center">Stabilizatoriai</p>
+									  	<img src="moduliuFoto/Stabilizer.png" class="card-img-top mb-3" alt="Papildomi varikliai"/>
+									  	<input class="d-flex justify-content-center align-items-center" type="checkbox" name="moduliai" onclick="func();" style="margin: auto;"/>
+									  </div>
+									</div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="width: 18rem;">
+									  <div class="card-body">
+									    <p class="card-text d-flex justify-content-center align-items-center">Aerodinaminiai "pelekai"</p>
+									  	<img src="moduliuFoto/Fins.png" class="card-img-top mb-3" alt="Papildomi varikliai"/>
+									  	<input class="d-flex justify-content-center align-items-center" type="checkbox" name="moduliai" onclick="func();" style="margin: auto;"/>
+									  </div>
+									</div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" style="width: 18rem;">
+									  <div class="card-body">
+									    <p class="card-text d-flex justify-content-center align-items-center">Papildomi varikliai</p>
+									  	<img src="moduliuFoto/Thruster.png" class="card-img-top mb-3" alt="Papildomi varikliai"/>
+									  	<input class="d-flex justify-content-center align-items-center" type="checkbox" name="moduliai" onclick="func();" style="margin: auto;"/>
+									  </div>
+									</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                        <label class="form-check-label" for="inlineRadio1">Raketų kuras</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2">Dyzelinas</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                        <label class="form-check-label" for="inlineRadio3">Benzinas</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                        <label class="form-check-label" for="inlineRadio4">Aliejus</label>
-                    </div>
-                </div>
-            </div>
+        </div>
     </div>
     <br>
+    <script>
+    	 function func()
+             {
+                 var designRadio = document.getElementsByName('designRadio');
+                 var color = "Sviesi";
+                 
+                 if(designRadio[1].checked)
+                 {
+                     color = "Tamsi";
+                 }
+                 else
+                 {
+                     color = "Sviesi";
+                 }
+
+                 var path = "raketuFoto/" + color;
+                 
+             	 var moduliuChb = document.getElementsByName('moduliai');
+             	 var moduliai = "";
+                 if(moduliuChb[1].checked)
+                 {
+                 	moduliai = moduliai + "Fins";
+                 }
+                 if(moduliuChb[0].checked)
+                 {
+                     moduliai = moduliai + "Stabilizators";
+                 }
+                 
+                 if(moduliuChb[2].checked)
+                 {
+                 	moduliai = moduliai + "Thrusters";
+                 }
+                 if(moduliai == "") 
+                 {
+                 	moduliai = "Default"
+                 }
+
+                 document.getElementById('image1').src=path + "/" + moduliai + "/1.png";
+                 document.getElementById('image2').src=path + "/" + moduliai + "/2.png";
+                 document.getElementById('image3').src=path + "/" + moduliai + "/3.png";
+                 document.getElementById('image4').src=path + "/" + moduliai + "/4.png";
+                 console.log(path);
+                 
+             }
+    </script>
     <script>
         $('#carousel').carousel();
         $('#carousel2').carousel();
