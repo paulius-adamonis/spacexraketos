@@ -62,7 +62,7 @@ require_once("includes/header.php");
         <hr>
 
 		<div class="d-flex justify-content-center">
-	        <div id="carouselExampleControls" class="carousel" data-keyboard="true">
+	        <div id="carouselExampleControls" class="carousel" data-keyboard="true" data-interval="150" data-ride="carousel">
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
 			      <img class="d-block w-100 h-100" id="image1" src="raketuFoto/Sviesi/Default/1.png" alt="Šiaurės kampas">
@@ -77,14 +77,14 @@ require_once("includes/header.php");
 			      <img class="d-block w-100 h-100" id="image4" src="raketuFoto/Sviesi/Default/4.png" alt="Vakarų kampas">
 			    </div>
 			  </div>
-			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			  <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			    <span class="sr-only">Atgal</span>
 			  </a>
 			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			    <span class="sr-only">Sekantis</span>
-			  </a>
+			  </a> -->
 			</div>
 		</div>
 
