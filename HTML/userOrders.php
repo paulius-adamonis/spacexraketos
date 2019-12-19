@@ -26,6 +26,7 @@
 						<th>ID</th>
 						<th>Pavadinimas</th>
 						<th>Suma</th>
+						<th>Būsena</th>
 						<th>Paleidimo data</th>
 						<th>Veiksmai</th>
 					</tr>
@@ -38,6 +39,7 @@
 								<td><?=$order->id?></td>
 								<td><?=$order->name?></td>
 								<td><?=$order->sum?></td>
+								<td>Vykdomas</td>
 								<th><?=$order->date?></th>
 								<td><a href="launchStream.php?name=<?=urlencode($order->name)?>" class="btn btn-primary">Stebėti paleidimą</a>
 									<a href="review.php?name=<?=urlencode($order->name)?>" class="btn btn-primary">Palikti atsiliepimą</a></td>

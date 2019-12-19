@@ -21,7 +21,7 @@
 <br>
 <label>Pasirinkta pozicija: <span id="onClickPositionView"></span></label>
 <br>
-<a class="btn btn-primary" href="igula.php">Grįžti į įgulos pasirinkimą</a>
+<a class="btn btn-primary" href="marsrutas.php">Grįžti į maršruto pasirinkimą</a>
 <a href='userOrders.php' class="btn btn-success"> Užsakyti! </a>
 </div>
 <script>
