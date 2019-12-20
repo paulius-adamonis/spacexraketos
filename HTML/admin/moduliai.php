@@ -35,7 +35,7 @@
                         <td>Ratukas</td>
                         <td>Naudojamas nuleidžiant raketą ar transportuojant</td>
                         <td>Išorės</td>
-                        <td><button type="button" class="btn btn-danger" onclick="removeElement(1)">Šalinti</button></td>
+                        <td><button type="button" class="btn btn-danger" onclick="removeElement(2)">Šalinti</button></td>
                     </tr>
                     <tr id="3">
                         <td>3</td>
@@ -49,7 +49,7 @@
                         <td>Lova</td>
                         <td>Naudojama, kai pabosta kelionė</td>
                         <td>Vidaus</td>
-                        <td><button type="button" class="btn btn-danger" onclick="removeElement(1)">Šalinti</button></td>
+                        <td><button type="button" class="btn btn-danger" onclick="removeElement(4)">Šalinti</button></td>
                     </tr>
                 </tbody>
             </table>
